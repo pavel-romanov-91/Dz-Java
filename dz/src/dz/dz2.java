@@ -13,9 +13,19 @@ public class dz2 {
 //	        dz2 assistant = new dz2();
 //	        assistant.sayHello("Михаил", "Виталий");
 //	    }
+//	
 	
-	
-	
+	 public static void sayYourAge(String greeting, int age) {
+	        System.out.println(greeting + " " + age);
+	    }
+	    public static void sayYourAge(int age, String greeting) {
+	        System.out.println(greeting + " " + age);
+	    }
+
+	    public static void main(String[] args) {
+	        sayYourAge("Мой возраст - ", 20);
+	        sayYourAge(20, "Мой возраст - ");
+	    }
 	
 	
 	
